@@ -1,0 +1,15 @@
+E:\TestandVerification\Projects\IGRSCC\IGRSCCMessageServices\MessagesDAL\bin\Debug\net5.0\MessagesDAL.deps.json
+E:\TestandVerification\Projects\IGRSCC\IGRSCCMessageServices\MessagesDAL\bin\Debug\net5.0\MessagesDAL.dll
+E:\TestandVerification\Projects\IGRSCC\IGRSCCMessageServices\MessagesDAL\bin\Debug\net5.0\ref\MessagesDAL.dll
+E:\TestandVerification\Projects\IGRSCC\IGRSCCMessageServices\MessagesDAL\bin\Debug\net5.0\MessagesDAL.pdb
+E:\TestandVerification\Projects\IGRSCC\IGRSCCMessageServices\MessagesDAL\obj\Debug\net5.0\MessagesDAL.csproj.AssemblyReference.cache
+E:\TestandVerification\Projects\IGRSCC\IGRSCCMessageServices\MessagesDAL\obj\Debug\net5.0\MessagesDAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\TestandVerification\Projects\IGRSCC\IGRSCCMessageServices\MessagesDAL\obj\Debug\net5.0\MessagesDAL.AssemblyInfoInputs.cache
+E:\TestandVerification\Projects\IGRSCC\IGRSCCMessageServices\MessagesDAL\obj\Debug\net5.0\MessagesDAL.AssemblyInfo.cs
+E:\TestandVerification\Projects\IGRSCC\IGRSCCMessageServices\MessagesDAL\obj\Debug\net5.0\MessagesDAL.csproj.CoreCompileInputs.cache
+E:\TestandVerification\Projects\IGRSCC\IGRSCCMessageServices\MessagesDAL\obj\Debug\net5.0\MessagesDAL.dll
+E:\TestandVerification\Projects\IGRSCC\IGRSCCMessageServices\MessagesDAL\obj\Debug\net5.0\ref\MessagesDAL.dll
+E:\TestandVerification\Projects\IGRSCC\IGRSCCMessageServices\MessagesDAL\obj\Debug\net5.0\MessagesDAL.pdb
+E:\TestandVerification\Projects\IGRSCC\IGRSCCMessageServices\MessagesDAL\bin\Debug\net5.0\MessagesDAL.runtimeconfig.json
+E:\TestandVerification\Projects\IGRSCC\IGRSCCMessageServices\MessagesDAL\bin\Debug\net5.0\MessagesDAL.runtimeconfig.dev.json
+E:\TestandVerification\Projects\IGRSCC\IGRSCCMessageServices\MessagesDAL\obj\Debug\net5.0\MessagesDAL.genruntimeconfig.cache
