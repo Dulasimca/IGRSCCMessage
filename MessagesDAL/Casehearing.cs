@@ -23,4 +23,14 @@ namespace MessagesDAL
 
 
     }
+    
+    public class MessageData
+    {
+        public string CaseNumber { get; set; }
+        public string PhoneNumber { get; set; }
+        public string CaseYear { get; set; }
+        public string Petitioner { get; set; }
+        public string HearingDate { get; set; }
+
+    }
 }
