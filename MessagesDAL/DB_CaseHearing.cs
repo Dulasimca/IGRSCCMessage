@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,30 +14,25 @@ namespace MessagesDAL
         public DB_CaseHearing( )
         {
         }
-        public List<Casehearing> GetCaseHearing()
+        public List<MessageData> GetCaseHearing()
         {
             try
             {
                 EF_IGRSCC_DataContext _DataContext = new EF_IGRSCC_DataContext();
                 var _caseModel = //_DataContext.casehearing// (from _dbCaseHearingEntity in _DataContext.casehearing
                 (from casehearing in _DataContext.casehearing
-                join Courtcase in _DataContext.casehearing on casehearing.courtcaseid equals Courtcase.courtcaseid
-
-                select new Casehearing
+                join Courtcase in _DataContext.courtcase on casehearing.courtcaseid equals Courtcase.courtcaseid
+                join Legalopinion in _DataContext.legalopinion on casehearing.courtcaseid equals Legalopinion.courtcaseid
+                join Legalpanel_master in _DataContext.legalpanel_master on Legalopinion.lawyerid equals Legalpanel_master.lawyerid
+                 select new MessageData
                 {
-                    id = casehearing.id,
-                    zoneid = casehearing.zoneid,
-                    districtid = casehearing.districtid,
-                    sroid = casehearing.sroid,
-                    casetypeid = casehearing.casetypeid,
-                    courtcaseid = casehearing.courtcaseid,
-                    hearingdate = casehearing.hearingdate,
-                    remarks = casehearing.remarks,
-                    createddate = casehearing.createddate,
-                    flag = casehearing.flag,
-                    userid = casehearing.userid,
-                    courtcasename = Courtcase.courtcasename
-                }).ToList();
+                    CaseNumber = Courtcase.casenumber,
+                    PhoneNumber = Legalpanel_master.phonenumber,
+                    CaseYear = Courtcase.caseyear,
+                    Petitioner = Courtcase.petitionername,
+                    HearingDate = casehearing.hearingdate,
+                     
+                 }).ToList();
                 return _caseModel;
             }
             catch (Exception ex)

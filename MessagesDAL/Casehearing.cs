@@ -31,9 +31,10 @@ namespace MessagesDAL
     {
         public string CaseNumber { get; set; }
         public string PhoneNumber { get; set; }
-        public string CaseYear { get; set; }
+        public int CaseYear { get; set; }
         public string Petitioner { get; set; }
-        public string HearingDate { get; set; }
+        public DateTime HearingDate { get; set; }
+        public int days { get; set; }
 
     }
 }
