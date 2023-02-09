@@ -66,8 +66,6 @@ namespace MessagesBAL
                 ErrorLog.WriteError("GetDays : " + ex.Message);
             }
             return differenceInDays;
-
         }
-
     }
 }
