@@ -31,5 +31,11 @@ namespace MessagesDAL
       //  public EF_IGRSCC_DataContext(DbContextOptions<EF_IGRSCC_DataContext> options) : base(options) { }
 
         public DbSet<Casehearing> casehearing { get; set; }
+        public DbSet<LegalPanelMaster> legalpanel_master { get; set; }
+        public DbSet<LegalOpinion> legalopinion { get; set; }
+        public DbSet<CourtCase> courtcase { get; set; }
+
+
+
     }
 }

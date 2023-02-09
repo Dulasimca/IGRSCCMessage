@@ -20,6 +20,9 @@ namespace MessagesDAL
         public string remarks { get; set; }
         public bool flag { get; set; }
         public int userid { get; set; }
+        public string courtcasename { get; set; }
+
+
 
 
     }
